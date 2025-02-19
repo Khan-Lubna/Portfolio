@@ -139,3 +139,55 @@ hr{
 .footer ul{
   padding-inline-start: 0px;
 }
+/* Cards Styling */
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  min-height: 250px;
+  margin: 10px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-info {
+  font-size: 12px;
+  word-wrap: break-word;
+  flex-grow: 1;
+}
+.card-btn, .card-btn2 {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 10px;
+  border-radius: 10px;
+}
+.card-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+.card-btn2 {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.center-btn {
+  display: block;
+  width: fit-content;
+  margin: 10px auto;
+}
+.tech-stack {
+  text-align: center;
+}
