@@ -10,31 +10,29 @@ body{
     font-family: "Montserrat", 
     sans-serif;
     margin: 0px;
-    font-size: 16px;        /**Change **/
-    line-height: 1.6;       /**Change **/
+    font-size: 16px;        
+    line-height: 1.6;      
 }
-/** Change h1, p **/
 h1 {
-  font-size: 2rem; /* Heading size */
+  font-size: 2rem; 
   margin-bottom: 1rem;
 }
 p {
-  font-size: 1rem; /* Paragraph size */
+  font-size: 1rem; 
   margin-bottom: 1rem;
 }
 small {
   font-size: 0.8rem; 
   margin-bottom: 1rem;
 }
-/** change container center of both h1 and p **/
+
+/* ALl Container Style */
 .container-center h1, .container-center p {
   text-align: center; 
 }
 hr{
   margin: 2rem 0rem;
 }
-
-/** container **/
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -44,11 +42,11 @@ hr{
   margin: auto;
 }
 
-/** Links **/
+/* Social Media Links */
 .link{
   text-decoration: none;
   padding: 0.5rem 1rem;
-  font-size: 1rem;       /**change **/
+  font-size: 1rem;       
 }
 .link-primary{
   background-color: var(--primary-color);
@@ -60,8 +58,6 @@ hr{
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
 }
-
-/** Lists **/
 .list-non-bullet{
   list-style: none;
 }
@@ -70,7 +66,7 @@ hr{
   padding: 0rem 0.5rem;
 }
 
-/** Navigation **/
+/* Navbar Style */
 .navigation{
   background-color: var(--primary-color);
   color: white;
@@ -91,7 +87,7 @@ hr{
   font-weight: bold;
 }
 
-/** Header **/
+/* Hero section Style */
 .hero{
   padding: 2rem;
   padding-top: 5rem;
@@ -110,9 +106,9 @@ hr{
   color: var(--primary-color);
 }
 
-/** Section **/
+/* Sections Style */
 .section{
-  padding: 2rem 1rem;  /** change 1rem **/
+  padding: 2rem 1rem;
 }
 .section h1{
   text-align: center;
@@ -121,7 +117,7 @@ hr{
   background-color: var(--off-white);
 }
 
-/** Footer **/
+/* Footer style */
 .footer{
   background-color: var(--primary-color);
   padding: 2rem 1rem;
@@ -139,7 +135,8 @@ hr{
 .footer ul{
   padding-inline-start: 0px;
 }
-/* Cards Styling */
+
+/* Project Cards Style */
 .card-container {
   display: flex;
   flex-direction: row;
@@ -189,5 +186,10 @@ hr{
   margin: 10px auto;
 }
 .tech-stack {
+  text-align: center;
+}
+
+/* Experience style */
+.experience-card h3 {
   text-align: center;
 }
