@@ -157,6 +157,13 @@ hr{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cards:hover {
+  transform: scale(1.03);
+}
+.cards:hover .card-btn {
+  filter: brightness(1.1);
 }
 .card-info {
   font-size: 12px;
@@ -181,7 +188,7 @@ hr{
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top: 10px;
+  margin-top: auto; 
 }
 .center-btn {
   display: block;
@@ -190,6 +197,37 @@ hr{
 }
 .tech-stack {
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  .card-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 500px) {
+  .cards {
+    width: 100%;
+    min-height: auto;
+  }
+}
+
+/* Tech stack icons style */
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 10px 0 15px;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+}
+.tech-icons i {
+  transition: transform 0.2s ease, color 0.2s ease;
+  cursor: default;
+}
+.tech-icons i:hover {
+  transform: scale(1.2);
+  color: #222;
 }
 
 /* Experience style */
