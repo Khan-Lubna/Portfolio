@@ -539,6 +539,19 @@ hr {
   .hero .hero-heading {
     font-size: 1.8rem;
   }
+
+  .projects-section {
+    padding: 0 1rem;
+  }
+
+  .project-detail-card {
+    padding: 24px;
+    margin: 20px 0;
+  }
+
+  .project-detail-card h1 {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -555,6 +568,33 @@ hr {
   .card-btn2 {
     padding: 0.5rem 1rem;
     font-size: 0.8rem;
+  }
+
+  .projects-section {
+    padding: 0 1rem;
+  }
+
+  .project-detail-card {
+    padding: 20px;
+    margin: 16px 0;
+    border-radius: 12px;
+  }
+
+  .project-detail-card h1 {
+    font-size: 1.4rem;
+  }
+
+  .project-detail-card .tech-stack {
+    font-size: 0.8rem;
+  }
+
+  .project-detail-card p {
+    font-size: 0.9rem;
+  }
+
+  .project-detail-card .link {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
   }
 }
 
