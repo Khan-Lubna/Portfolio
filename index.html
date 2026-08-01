@@ -35,8 +35,8 @@
     <div class="container container-center">
       <h1>Technologies</h1>
       <p style="text-align: center;">
-        JavaScript (ES6+), React.js, Next.js, TypeScript, HTML5, CSS3, Tailwind CSS, Node.js, MongoDB,
-        Firebase, REST APIs, Git
+        JavaScript (ES6+), React.js, Next.js, TypeScript, Zustand, Tailwind CSS, Node.js, Express.js,
+        MongoDB
       </p>
     </div>
   </section>
@@ -50,12 +50,13 @@
       <div class="experience-card">
         <h3><i class="fa-solid fa-briefcase"></i> Software Engineer – <a href="https://panchhee.in/en"
             target="_blank"><i class="fa-solid fa-building"></i> Panchhee</a></h3>
-        <p><em><i class="fa-regular fa-calendar"></i> February 2026 – Present</em></p>
+        <p><em><i class="fa-regular fa-calendar"></i> September 2025 – Present</em></p>
         <ul>
-          <li>Developing and refining responsive UI components using React.js and Next.js for a modern web application.
-          </li>
-          <li>Enhancing user experience by improving layouts, modals, filters, and overall interface behavior.</li>
-          <li>Debugging and optimizing frontend code to ensure smooth performance and maintainable architecture.</li>
+          <li>Build responsive, accessible UI for a Next.js/React marketplace using TypeScript, Tailwind CSS, and
+            Zustand.</li>
+          <li>Refactor search bar into reusable hook and variant-based component; build key landing page sections.</li>
+          <li>Migrate catalog pagination to URL-driven React Query pattern with tech lead.</li>
+          <li>Fix critical bugs (re-render loops, pagination, Tailwind conflicts) and integrate FingerprintJS Pro.</li>
         </ul>
       </div>
 
@@ -65,23 +66,46 @@
             target="_blank"><i class="fa-solid fa-building"></i> XivTech</a></h3>
         <p><em><i class="fa-regular fa-calendar"></i> May 2025 – September 2025</em></p>
         <ul>
-          <li>Contributed to building and optimizing React.js components with real-time WebSocket integration and
-            API-driven layouts.</li>
-          <li>Gained hands-on experience in state management, scalable UI design, and data-driven feature development in
-            a collaborative environment.</li>
-          <li>Implemented dynamic data tables, validator lifecycle workflows (enable/discard/restore), shimmer loaders,
-            filtering, and sorting to enhance usability.</li>
+          <li>Built and optimized React.js components with real-time WebSocket integration and API-driven layouts.</li>
+          <li>Collaborated with the development team to ensure responsive and scalable design implementations.</li>
+          <li>Enhanced UI performance and state management in data-driven features.</li>
+          <li>Implemented multi-language support, integrating localization/translation into React components.</li>
         </ul>
       </div>
 
     </div>
   </section>
 
-  <!-- This is Pojects Section -------------------------------- -->
+  <!-- This is Education Section------------------------------- -->
   <section class="section ow">
     <div class="container container-center">
-      <h1>Projects</h1>
-      <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+      <h1>Education</h1>
+
+      <div class="experience-card">
+        <h3><i class="fa-solid fa-graduation-cap"></i> Master of Science in Information Technology</h3>
+        <p><em><i class="fa-regular fa-calendar"></i> July 2024 – June 2026</em></p>
+        <ul>
+          <li>University of Mumbai – 8.27 CGPA</li>
+        </ul>
+      </div>
+
+      <div class="experience-card">
+        <h3><i class="fa-solid fa-graduation-cap"></i> Bachelor of Computer Applications</h3>
+        <p><em><i class="fa-regular fa-calendar"></i> July 2021 – June 2024</em></p>
+        <ul>
+          <li>SNDT Women's University – 7.68 CGPA</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- This is Projects Section -------------------------------- -->
+  <section class="section ow">
+    <div class="container container-center">
+      <h1>Featured Projects</h1>
+      <p>Here are a few of my best projects showcasing full-stack development, React applications, and API integrations.
+      </p>
       <!--Adding cards-->
       <div class="card-container">
 
@@ -94,9 +118,9 @@
             <i class="fa-solid fa-code" title="EJS"></i>
           </div>
           <p class="card-info">
-            DevDiaries is a full-stack Learning Journey Tracking Platform built using Node.js, Express, MongoDB, and
-            EJS. It helps students and freshers document their daily learning through rich-text blogs while tracking
-            their progress with learning days, streaks, goals, achievements, analytics, and interactive dashboards.
+            Built a full-stack MERN Learning Journey Tracking Platform enabling students to document daily learning
+            via rich-text blogs, with authentication, dashboards, streak tracking, goals, analytics, and PDF report
+            generation using MVC architecture.
           </p>
           <div class="button-container">
             <a class="card-btn" href="https://devdiaries-1atw.onrender.com/blogs">Live Project</a>
@@ -105,19 +129,22 @@
         </div>
 
         <div class="cards">
-          <h4>Student Board</h4>
+          <h4>CryptoTracker</h4>
           <div class="tech-icons">
             <i class="fa-brands fa-react" title="React.js"></i>
-            <i class="fa-solid fa-fire" title="Firebase"></i>
+            <i class="fa-solid fa-chart-line" title="REST API"></i>
           </div>
-          <p class="card-info">The StudentBoard website is built using React and Firebase for seamless functionality and
-            real-time data management. It enables users to view, edit, and delete student records, as well as add
-            multiple students' data and visualize the information effectively.</p>
+          <p class="card-info">
+            A responsive cryptocurrency tracking application that fetches real-time market data from a public API. Users
+            can search cryptocurrencies, view live prices, market capitalization, 24-hour price changes, and other key
+            market statistics through an intuitive interface.
+          </p>
           <div class="button-container">
-            <a class="card-btn" href="https://studentboard02.netlify.app/">Live Project</a>
-            <a class="card-btn2" href="https://github.com/Khan-Lubna/StudentBoard">View Source Code</a>
+            <a class="card-btn" href="https://cryptto-tracker.netlify.app/">Live Project</a>
+            <a class="card-btn2" href="https://github.com/Khan-Lubna/CryptoTracker">View Source Code</a>
           </div>
         </div>
+
       </div>
       <a class="link link-primary center-btn" href="./projects.html">See More</a>
     </div>
@@ -128,26 +155,33 @@
     <div class="container container-center">
       <h1>About Me</h1>
       <p>
-        I am Lubna Khan, Web Developer passionate about building clean, responsive, and user-friendly web
-        applications.
-        With hands-on experience in JavaScript, React.js, and Next.js, I focus on creating intuitive interfaces and
-        improving
-        overall user experience. I enjoy solving real-world UI challenges, writing maintainable code, and continuously
-        learning
-        new technologies to enhance my development skills.
+        Software Engineer with ~2 years of experience building scalable, accessible web applications using
+        React.js, Next.js, TypeScript, and Tailwind CSS. Skilled in architecting reusable component systems,
+        managing state with Zustand, and integrating REST APIs with React Query. Adept at diagnosing complex
+        frontend bugs and delivering pixel-perfect, production-ready UI.
       </p>
     </div>
   </section>
 
   <!-- This is Footer Section (Social Media Appearance)------------- -->
   <footer class="footer">
+    <div class="footer-header">Get In Touch</div>
+    <div class="contact-info">
+      <a href="mailto:lubnakhanahsan@gmail.com">
+        <i class="fa-solid fa-envelope"></i> lubnakhanahsan@gmail.com
+      </a>
+      <a href="tel:+919930422634">
+        <i class="fa-solid fa-phone"></i> +91 9930422634
+      </a>
+    </div>
     <div class="footer-header">Social Media Presence</div>
     <ul class="social-links list-non-bullet">
-      <li class="list-item-inline"><a class="link" href="https://github.com/Khan-Lubna" target="_blank">GitHub</a></li>
+      <li class="list-item-inline"><a class="link" href="https://github.com/Khan-Lubna" target="_blank"><i
+            class="fa-brands fa-github"></i> GitHub</a></li>
       <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/lubna-khan-99b9a030b/"
-          target="_blank">LinkedIn</a></li>
-      <li class="list-item-inline"><a class="link" href="https://twitter.com/LubnaKhan_28" target="_blank">Twitter</a>
-      </li>
+          target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+      <li class="list-item-inline"><a class="link" href="https://twitter.com/LubnaKhan_28" target="_blank"><i
+            class="fa-brands fa-twitter"></i> Twitter</a></li>
     </ul>
   </footer>
 </body>
